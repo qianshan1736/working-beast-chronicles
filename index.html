@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <title>牛马奋斗录</title>
+    <link rel="icon" href="data:," />
+  </head>
+  <body>
+    <div id="app">
+      <div id="game-root"></div>
+      <div id="hud" class="hud hidden"></div>
+      <div id="scene-tag" class="scene-tag hidden" aria-live="polite"></div>
+      <div id="rage-overlay" class="rage-overlay" aria-hidden="true"></div>
+      <div id="toast" class="toast hidden" role="status" aria-live="polite" aria-atomic="true"></div>
+      <div id="task-layer" class="task-layer"></div>
+      <div id="mobile-controls" class="mobile-controls hidden">
+        <button data-dir="up" class="pad up" aria-label="上移">↑</button>
+        <button data-dir="left" class="pad left" aria-label="左移">←</button>
+        <button data-dir="right" class="pad right" aria-label="右移">→</button>
+        <button data-dir="down" class="pad down" aria-label="下移">↓</button>
+        <button id="mobile-pause" class="pause-fab" aria-label="暂停">II</button>
+      </div>
+      <div id="orientation-hint" class="orientation-hint" role="status">↻<strong>请横屏游玩</strong><span>横屏后可使用方向键移动与暂停。</span></div>
+      <div id="overlay" class="overlay"></div>
+    </div>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
