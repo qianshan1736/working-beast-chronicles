@@ -2,6 +2,8 @@
 
 五场景像素风生存游戏。每局坚持 3 分钟，局末选择下班或继续加班；第五局结束固定进入“加班猝死”结局。
 
+[在线游玩](https://qianshan1736.github.io/working-beast-chronicles/)
+
 ## 运行与验证
 
 ```bash
